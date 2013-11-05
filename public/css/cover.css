@@ -1,0 +1,161 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.intro {
+  background-color: #ffffff;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.sprite {
+  height: 100px;
+  width: 80px;
+  background: url(../img/sprite.png) no-repeat -153px -250px;
+
+}
+
+.duction {
+  background-color: #8FBC8F;
+  vertical-align: middle;
+  text-align: center;
+  height: 20px;
+}
+
+.extra { 
+  padding: 10px 0;
+  background-color: #c74b46;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.more { 
+  padding: 40px;
+  background-color: #ffffff;
+  vertical-align: middle;
+  text-align: center;
+
+/*  height: 400px;
+*/}
+
+.vert-text {
+  color: #C3C69B;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  color: #c74b46;
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 700px;
+  width: 100%;
+  position: relative;
+  background: url(../img/colonial.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Intro */
+
+.intro {
+  padding: 50px 0;
+}
+
+/* Services */
+
+.services {
+  background-color: #3f9fe0;
+  padding: 10px 0;
+  color: #ffffff;
+/*  height: 600px;
+*/}
+
+.service-item {
+  margin-bottom: 15px;
+}
+
+i.service-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+i.service-icon:hover {
+  font-size: 68px;
+}
+
+/* Callout */
+
+.callout {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(http://www.hot-map.com/images/tn/Landkarte-Silicon-Valley-CA-7571.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+  padding: 50px 0;
+}
+
+.portfolio-item {
+  margin-bottom: 25px;
+}
+
+.img-portfolio {
+  margin: 0 auto;
+}
+
+.well {
+background-color:rgba(255,255,255,0.6);
+border-radius: 50px;
+}
+
+/* Call to Action */
+
+.call-to-action {
+  color: #ffffff;
+  background: #8FBC8F;
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+/* Footer */
+
+footer {
+  padding: 100px 0;
+}
+
+
